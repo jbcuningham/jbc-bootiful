@@ -1,0 +1,4 @@
+---
+applications:
+- name: eureka-service
+  path: target/eureka-service-0.0.1-SNAPSHOT.jar

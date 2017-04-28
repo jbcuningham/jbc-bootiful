@@ -1,0 +1,8 @@
+---
+applications:
+- name: jbc-gateway
+  memory: 1G
+  path: target/zuul-gateway-0.0.1-SNAPSHOT.jar
+services:
+- eureka-service
+- rabbitmq

@@ -1,0 +1,8 @@
+---
+applications:
+- name: client-data
+  memory: 1G
+  path: target/client-data-service-0.0.1-SNAPSHOT.jar
+services:
+- eureka-service
+- rabbitmq
